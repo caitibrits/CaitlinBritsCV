@@ -50,7 +50,6 @@ body {
   text-align: center;
 }
 
-
 #circlePosition img {
   transition: transform .4s;
 }
@@ -316,7 +315,7 @@ div #backToTop:hover img {
     width: auto;
   }
 
-  .dropbtn {
+ /* .dropbtn {
     width: 12%;
     height: auto;
     background-image: url(../images/menu.png);
@@ -347,14 +346,14 @@ div #backToTop:hover img {
     border: none;
   }
 
-  /* The container <div> - needed to position the dropdown content */
+  /* The container <div> - needed to position the dropdown content 
   .dropdown {
     width: 100%;
     position: relative;
     display: inline-block;
   }
   
-  /* Dropdown Content (Hidden by Default) */
+  /* Dropdown Content (Hidden by Default) 
   .dropdown-content {
     display: none;
     position: absolute;
@@ -365,7 +364,7 @@ div #backToTop:hover img {
     z-index: 1;
   }
 
-/* Links inside the dropdown */
+/* Links inside the dropdown 
   .dropdown-content a { 
     color: rgb(255, 255, 255);
     width: 90%;
@@ -378,7 +377,7 @@ div #backToTop:hover img {
   .dropdown:hover .dropdown-content {
     display: block;
     width: 100%;
-  }
+  } */
 
   .headerimage {
     width: 70%;
@@ -558,11 +557,7 @@ div #backToTop:hover img {
 
 @media only screen and (min-width: 576px) {
 
-  body {
-    width: auto;
-  }
-
-  .dropbtn {
+ /* .dropbtn {
     width: 12%;
     height: auto;
     background-image: url(../images/menu.png);
@@ -575,7 +570,7 @@ div #backToTop:hover img {
     margin-top: 10%;
   }
 
-    /* The container <div> - needed to position the dropdown content */
+    /* The container <div> - needed to position the dropdown content 
     .dropdown {
       width: 100%;
       position: relative;
@@ -600,7 +595,7 @@ div #backToTop:hover img {
     border: none;
   }
   
-  /* Dropdown Content (Hidden by Default) */
+  /* Dropdown Content (Hidden by Default) 
   .dropdown-content {
     display: none;
     position: absolute;
@@ -611,7 +606,7 @@ div #backToTop:hover img {
     z-index: 1;
   }
 
-/* Links inside the dropdown */
+/* Links inside the dropdown 
   .dropdown-content a { 
     color: rgb(255, 255, 255);
     width: 90%;
@@ -619,12 +614,12 @@ div #backToTop:hover img {
     padding: 2em;
     text-decoration: none;
     display: block;
-  }
+  } */
 
-  .dropdown:hover .dropdown-content {
+ /* .dropdown:hover .dropdown-content {
     display: block;
     width: 100%;
-  }
+  } */
 
   .headerimage {
     width: 70%;
@@ -853,10 +848,14 @@ div #backToTop:hover img {
     margin-top: 1em;
   }
 
-  .dropbtn {
+  .navbar {
     display: none;
   }
 
+ /* .dropbtn {
+    display: none;
+  }
+*/
   #circlePosition {
     width: 15%;
     height: 10%;
@@ -1049,6 +1048,10 @@ div #backToTop:hover img {
 /* Large devices (laptops/desktops, 992px and up) */
 
 @media only screen and (min-width: 992px) {
+
+  .navbar {
+    display: none;
+  }
 
   .headerimage {
     float: right;  
