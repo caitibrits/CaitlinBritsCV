@@ -1110,10 +1110,6 @@ div #backToTop:hover img {
     text-align: center;
   }
 
-  .arrowA {
-    margin: 6em;
-  }
-
   #experienceWrapper {
     background-image: url("/images/experienceInfoImg.png");
     background-color: #e4d5b0;
