@@ -309,7 +309,7 @@ div #backToTop:hover img {
 
 /* Extra Small devices (576px and down) */
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 575px) {
 
   body {
     width: auto;
@@ -378,6 +378,14 @@ div #backToTop:hover img {
     display: block;
     width: 100%;
   } */
+
+  .jumbo {
+    display: none;
+  }
+
+  .collapse:not(.show) {
+    display: flex;
+  }
 
   .headerimage {
     width: 70%;
@@ -621,8 +629,12 @@ div #backToTop:hover img {
     width: 100%;
   } */
 
+  .jumbo {
+    display: none;
+  }
+
   .headerimage {
-    width: 70%;
+    width: 40%;
     border-radius: 50%;
     margin-left: auto;
     margin-right: 5%;
@@ -636,7 +648,7 @@ div #backToTop:hover img {
     text-align: center;
     font-size: 160%;
     font-family: 'Balsamiq Sans', sans-serif, serif, cursive !important;
-    padding-top: 2em;
+    padding-top: 5em;
   }
   
   .intro {
@@ -655,7 +667,7 @@ div #backToTop:hover img {
     background-color: #c1d3f8;
     width: 100%;
     height: auto;
-    margin: none;
+    margin-top: 20em;
   } 
 
   #aboutMe {
